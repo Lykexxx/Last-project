@@ -1,0 +1,59 @@
+.story {
+    padding: 229px 0 176px;
+    background-color: #245852;
+    color: #fff;
+}
+
+.story__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story__content {
+    margin-right: 30px;
+    max-width: 580px;
+}
+
+.story__title {
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%; /* 78.5px */
+    margin-bottom: 30px;
+}
+
+.story__text {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 157%; /* 39.25px */
+    margin-bottom: 57px;
+} 
+
+.story__btn.btn{
+    padding: 20px 50px;
+
+}
+
+.story__video {
+    width: 895px;
+    position: relative;
+
+    
+}
+
+.story__video-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.story__video-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
